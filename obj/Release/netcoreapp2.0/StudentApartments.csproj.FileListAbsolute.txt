@@ -1,0 +1,13 @@
+/Users/jakob/Projects/StudentApartments/StudentApartments/bin/Release/netcoreapp2.0/StudentApartments.deps.json
+/Users/jakob/Projects/StudentApartments/StudentApartments/bin/Release/netcoreapp2.0/StudentApartments.runtimeconfig.json
+/Users/jakob/Projects/StudentApartments/StudentApartments/bin/Release/netcoreapp2.0/StudentApartments.runtimeconfig.dev.json
+/Users/jakob/Projects/StudentApartments/StudentApartments/bin/Release/netcoreapp2.0/StudentApartments.dll
+/Users/jakob/Projects/StudentApartments/StudentApartments/bin/Release/netcoreapp2.0/StudentApartments.pdb
+/Users/jakob/Projects/StudentApartments/StudentApartments/obj/Release/netcoreapp2.0/StudentApartments.csprojResolveAssemblyReference.cache
+/Users/jakob/Projects/StudentApartments/StudentApartments/obj/Release/netcoreapp2.0/StudentApartments.csproj.CoreCompileInputs.cache
+/Users/jakob/Projects/StudentApartments/StudentApartments/obj/Release/netcoreapp2.0/StudentApartments.AssemblyInfoInputs.cache
+/Users/jakob/Projects/StudentApartments/StudentApartments/obj/Release/netcoreapp2.0/StudentApartments.AssemblyInfo.cs
+/Users/jakob/Projects/StudentApartments/StudentApartments/obj/Release/netcoreapp2.0/StudentApartments.dll
+/Users/jakob/Projects/StudentApartments/StudentApartments/obj/Release/netcoreapp2.0/StudentApartments.pdb
+/Users/jakob/Projects/StudentApartments/StudentApartments/obj/Release/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/Users/jakob/Projects/StudentApartments/StudentApartments/bin/Release/netcoreapp2.0/Database.db

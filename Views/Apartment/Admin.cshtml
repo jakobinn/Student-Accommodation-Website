@@ -1,0 +1,17 @@
+﻿@model List<StudentApartments.Models.Apartment>
+@{
+    int status = (int)TempData["status"];
+}
+
+<div class="row">
+
+    <h2 class="header-text">Apartment requests</h2>
+
+    @foreach (var item in Model)
+    {
+    <div class="well apartment-item">
+        @Html.Partial("./EditorTemplates/Apartment.cshtml", item)
+        @Html.Partial("./EditorTemplates/Review.cshtml", new StudentApartments.Models.Review(), new ViewDataDictionary(this.ViewData){{ "ApartmentID", item.ID }})
+    </div>
+    }
+</div>

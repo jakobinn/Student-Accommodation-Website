@@ -1,0 +1,33 @@
+﻿@model IEnumerable<StudentApartments.Models.Apartment>
+
+<div class="row">
+    <h2 class="header-text">My Apartments</h2>
+
+    <a class="btn btn-primary button" asp-action="Create">Create New</a>
+   
+    @foreach (var item in Model) {
+	
+        <div class="well apartment-item">
+            <div class="apartment-main">
+                <div class="left-col-apartments">
+                    <h2>@Html.DisplayFor(modelItem => item.Location)</h2>
+                    <p>@Html.DisplayFor(modelItem => item.Description)</p>
+                </div>
+                <div class="right-col-apartments">
+                    <img class="apartment-image" src="@item.Image" alt="house"/>
+                    <p>@Html.DisplayFor(modelItem => item.Price) £</p>
+                </div>         
+             </div>
+             @if (item.Review != null && item.Review.IsApproved){
+                 <span class="glyphicon glyphicon-ok icon accepted"></span><span> Approved</span>
+             }else if(item.Review != null && !item.Review.IsApproved){
+                 <span class="glyphicon glyphicon-remove icon denied"></span><span> Declined</span>
+             }else{
+                 <span class="glyphicon glyphicon-time icon"></span><span> Awaiting response</span>
+             }		    
+    	     @if (item.Review != null){
+                 <p>@Html.DisplayFor(modelItem => item.Review.Feedback)</p>	
+             }		
+        </div>
+    }
+</div>

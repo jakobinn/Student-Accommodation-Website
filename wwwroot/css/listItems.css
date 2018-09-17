@@ -1,0 +1,64 @@
+﻿.header-text {
+    text-align: center;
+    overflow: hidden;
+}
+
+.apartment-item {
+    max-width: 900px;
+    min-width: 350px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.apartment-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apartment-left-col {
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.apartment-right-col {
+    flex-direction: row;
+}
+
+.apartment-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+    justify-content: flex-end;
+}
+
+.price-text {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.button {
+    margin: auto;
+    justify-content: space-evenly;
+    display:flex;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.listimg {
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+}
+.icon {
+    font-size: 14px;
+}
+
+.accepted {
+    color: green;
+}
+
+.denied {
+   color: red; 
+}

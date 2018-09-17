@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{745A1248-C67C-42D1-A686-F5515B4FFF68}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/AccountController.cs">
+    <Files>
+      <File FileName="Views/Apartment/Admin.cshtml" Line="13" Column="51" />
+      <File FileName="Views/Apartment/List.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Apartment/Create.cshtml" Line="9" Column="51" />
+      <File FileName="Controllers/ApartmentController.cs" Line="104" Column="33" />
+      <File FileName="Views/Apartment/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Apartment/Index.cshtml" Line="22" Column="36" />
+      <File FileName="Views/Apartment/Landlord.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Apartment/Details.cshtml" Line="13" Column="13" />
+      <File FileName="Views/Apartment/AccessDenied.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Apartment/EditorTemplates/Apartment.cshtml" Line="6" Column="28" />
+      <File FileName="Views/Apartment/EditorTemplates/Review.cshtml" Line="18" Column="11" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="65" Column="20" />
+      <File FileName="Views/Shared/_LoginPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Controllers/AccountController.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StudentApartments PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

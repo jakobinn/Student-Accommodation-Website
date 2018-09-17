@@ -1,0 +1,33 @@
+﻿@model IEnumerable<StudentApartments.Models.Apartment>
+@{
+    int role = (int)ViewData["role"];
+}
+
+<div class="row">
+	<h2 class="header-text">Apartments available</h2>
+    @if (role == 1)
+    {
+        <a class="btn btn-primary button" asp-action="Landlord">My Apartments</a>
+    }else if(role == 2){
+        <a class="btn btn-primary button" asp-action="Admin">Apartment requests</a>
+    }  
+    @foreach (var item in Model) {
+	<div class="well apartment-item">
+         <div class="apartment-main">
+			<div class="left-col-apartments">
+                <h2>@Html.DisplayFor(modelItem => item.Location)</h2>
+                <p>@Html.DisplayFor(modelItem => item.Description)</p>
+            </div>
+			<div class="right-col-apartments">
+			    <img class="apartment-image" src="@item.Image" alt="house"/>
+                <p>@Html.DisplayFor(modelItem => item.Price) £</p>
+			</div>         
+		 </div>
+     </div>
+    }
+</div>
+
+
+
+
+

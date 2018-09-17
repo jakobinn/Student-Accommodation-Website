@@ -1,0 +1,13 @@
+@model Apartment
+<div class="apartment-main">
+    <div class="left-col-apartments">
+        <div asp-action="ItemToApprove">
+            <h2>@Model.Location</h2>
+            <p>@Model.Description</p>
+        </div>
+    </div>
+    <div class="right-col-apartments">
+        <img class="apartment-image" src="@Model.Image" alt="house"/>
+        <p>@Model.Price £</p>
+    </div>         
+</div>

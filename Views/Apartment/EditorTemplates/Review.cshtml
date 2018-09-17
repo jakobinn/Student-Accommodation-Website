@@ -1,0 +1,22 @@
+@model Review
+@{
+    int ApartmentID = (int)ViewData["ApartmentID"];
+}
+<form asp-action="Admin" asp-route-id="@ApartmentID" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">    			
+        <input asp-for="IsApproved" type="radio" id="apartment-approved @ApartmentID" name="IsApproved" value=true checked>
+        <label class="inline" for="apartment-approved @ApartmentID">Accept</label>
+        <br>
+        <input asp-for="IsApproved" type="radio" id="apartment-declined @ApartmentID" name="IsApproved" value=false >
+        <label class="inline" for="apartment-declined @ApartmentID">Decline</label>             
+    </div>
+    <div class="form-group">
+        <label for="Feedback" class="control-label">Feedback</label>
+        <textarea id="feedback@ApartmentID" asp-for="Feedback" name="Feedback" type="text" col="6" class="form-control"></textarea>
+        <span asp-validation-for="Feedback" class="text-danger"></span>
+    </div>
+    <div class="button-group">
+        <input type="submit" value="Submit" class="btn btn-default" />   
+    </div>
+</form>
